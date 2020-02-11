@@ -26,8 +26,9 @@ int main()
     //set_servo_position(0,150); THIS SETS THE ARM UP TO NOT KNOCK THE CUBES OFF
     //msleep(500);
     disable_servos();
-    motor(3,75);//turning 
-    motor(0,-75);
+    int turnspeed = 60;
+    motor(3,turnspeed);//turning 
+    motor(0,-(turnspeed));
     msleep(2000);
     ao();
     enable_servos();
