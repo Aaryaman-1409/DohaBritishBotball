@@ -10,7 +10,6 @@
 *  6) The servo movement functions pause the program while they move. If this is not the case I have a super simple fix for that anyways :)
 *  7) Your claw design is similar to mine, or at least has the same joints (double shoulder, elbow, claw hand)
 
-*Author: William Waddell -- orchid_obsessed
 *Date: February 10, 2020
 *Ver: a1.1
 */
